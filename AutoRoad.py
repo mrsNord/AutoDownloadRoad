@@ -61,15 +61,6 @@ def getFile():
 browsebutton = Button(fileframe, text = "Browse", fg = "black", command = getFile)
 browsebutton.grid(row = 2, column = 0, pady = 5, padx = 5)
 
-# Select User Text
-techLabel = Label(fileframe, text = "Select User:")
-techLabel.grid(row = 2, column = 1)
-
-# Select User Box
-techName = StringVar(root)
-techName = ttk.Combobox(fileframe, font=("Calibri"), values = ["Jane", "Celeste", "Sarah", "Gaby", "Daniel"])
-techName.grid(row = 2, column = 2)
-
 
 #------------------------------------------------------------------------------------------------------------------
 # Select Sheet
